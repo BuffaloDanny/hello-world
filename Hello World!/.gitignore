@@ -1,0 +1,38 @@
+# macOS system files
+.DS_Store
+
+# Xcode build files
+DerivedData/
+build/
+
+# Xcode project user data
+*.xcworkspace
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods (if you use it later)
+Pods/
+
+# Carthage (less common now)
+Carthage/
+
+# Fastlane (CI/CD tool)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Temporary files
+*.swp
+*.lock
+*.tmp
