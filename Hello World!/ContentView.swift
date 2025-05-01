@@ -6,19 +6,15 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.largeTitle)
+            Button("Tap me") {
+                print("Button tapped!")
+            }
+            .padding()
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
